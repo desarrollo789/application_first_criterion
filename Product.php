@@ -1,13 +1,20 @@
 <?php
 
 class Product{
+    VAR $ID;
     var $NAME;
+    var $DESCRIPTION;
     var $PRICE;
+    var $IMAGE;
     
     
     public function __construct()
     {
-        
+        $this->ID;
+        $this->NAME;
+        $this->DESCRIPTION;
+        $this->PRICE;
+        $this->IMAGE;
     }
 
     public function set_attribute($NAME, $PRICE)
@@ -21,6 +28,7 @@ class Product{
        $summary = $QUANTITY * $this->PRICE;
        return $summary;
     }
+    
 }
 
 ?>
