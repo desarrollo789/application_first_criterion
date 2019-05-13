@@ -1,0 +1,34 @@
+
+<html>
+    <form action="../Controller/Product_controlle.php" method="get">
+        <div name="producto">
+            <table>
+                <tr>                
+                    <td>
+                        <label style="font-weight:bold;" for="id"> ID: </label>                        
+                        <input name="id" type="text" placeholder="ingrese la id del producto">        
+                    </td>
+                
+                    <td>
+                        <label style="font-weight:bold;" for="name"> NAME: </label>
+                        <input name="nombre" type="text" placeholder="ingrese el nombre del producto">
+                        
+                    </td>
+                </tr>               
+                <tr>
+                    <td>
+                        <label style="font-weight:bold;"> DESCRIPTION: </label>
+                        <input name="description" type="text" placeholder="ingrese la descripcion del producto">
+                    </td>
+                    <td>
+                        <label style="font-weight:bold;"> IMAGE: </label>
+                        <input name="image" type="text" placeholder="ingrese la imagen del producto">                    
+                    </td>
+                </tr> 
+                <tr>
+                    <input type="submit" name="submit" value="ingresar datos">
+                </tr>                  
+                </table>        
+            </div>
+    </form>
+</html>
